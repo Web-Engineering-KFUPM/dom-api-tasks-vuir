@@ -20,10 +20,8 @@ inside the <p> element with id="t1-msg".
 document.getElementById("t1-msg").innerHTML = "Hello, World!";
 */
 // Ensure DOM is ready before touching elements
-document.addEventListener("DOMContentLoaded", function () {
     const msg = document.getElementById("t1-msg");
     msg.innerHTML = "Hello, World!";
-});
 
 /*  
 =======================================
@@ -44,13 +42,11 @@ button.addEventListener("click", function () {
     // change text here
 });
 */
-document.addEventListener("DOMContentLoaded", function () {
  const button = document.getElementById("t2-btn");
  button.addEventListener("click", function () {
     const status = document.getElementById("t2-status");
     status.innerHTML = "You clicked the button!";
  })
-});
 
 /*  
 =======================================
